@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: jsonr
-Version: 8.5.1
+Version: 8.5.2
 Summary: Highly customizable JSON objects and dataframes.
 Home-page: https://github.com/jsonr-py/jsonr
 Author: jsonr
@@ -40,14 +40,18 @@ Requires-Python: >=3.7
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-<a href="https://pypi.org/project/jsonr"><img src="https://i.ibb.co/9hg4pF2/jsonr-modified.png" alt="jsonr" border="0" width="145"></a>
+<h1 align="center">
+  <a href="https://pypi.org/project/jsonr"><img src="https://i.ibb.co/9hg4pF2/jsonr-modified.png" alt="jsonr" border="0" width="145"></a><a href="https://pypi.org/project/jsonr"><img src="https://i.ibb.co/NK3W9Dk/jsonr-preview-modified.png" alt="jsonr" border="0" width="290">
+  </a>
+</h1>
+
 
 # [jsonr - PyPi](https://pypi.org/project/jsonr)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsonr-py/jsonr/blob/master/LICENSE)
 [![Python Versions](https://img.shields.io/badge/python-3.7%20|%203.8%20|%203.9%20|%203.10%20|%203.11%20|%203.12%20-blue)](https://www.python.org/downloads/)
 
 ```
-flowa: (V8.5.1)
+flowa: (V8.5.2)
 
 Python Highly customizable JSON objects and dataframes, and more!
 ```
