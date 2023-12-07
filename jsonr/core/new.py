@@ -122,4 +122,3 @@ class New(NewBase):
             self._NewBase_json_secret_var_jsonr_python[keyword] = value
             if self._NewBase_auto_unique_secret_var_jsonr_python: setattr(self, keyword, value)
         return self
-
