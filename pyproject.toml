@@ -1,0 +1,44 @@
+[build-system]
+requires      = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jsonr"
+version = "8.5.1"
+description = "Highly customizable JSON objects and dataframes."
+readme = "README.md"
+authors = [{ name = "jsonr", email = "jsonr.py@gmail.com" } ]
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+]
+keywrods = [
+    "jsonr",
+    "json",
+    "jsonr-py",
+    "jsonr-python",
+    "dataframe",
+    "df",
+    "pandas",
+    "python"
+]
+requires-python = ">=3.7"
+dependenices = [
+    "numpy"
+]
+
+[project.urls]
+GitHub = "https://github.com/jsonr-py"
+Repository = "https://github.com/jsonr-py/jsonr"
+PyPi = "https://pypi.org/project/jsonr"
+
+[project.urls.changelog]
+GitHub = "https://github.com/jsonr-py/jsonr/releases"
+
+[project.urls.documentation]
+GitHub = "https://github.com/jsonr-py/jsonr/blob/master/README.md
