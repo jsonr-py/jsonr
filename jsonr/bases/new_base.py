@@ -7,7 +7,7 @@ _NewBase_banned_keywords_secret_var_jsonr_python: list = [
 ]
 
 
-class NewBase:
+class NewBase(object):
     def __init__(self, auto: bool = False, limit: int = None, *args, **kwargs) -> None:
         if auto: (setattr(self, key, value) for key, value in kwargs.items() if key not in _NewBase_banned_keywords_secret_var_)
 
