@@ -1,11 +1,5 @@
-<a href="https://pypi.org/project/jsonr"><img src="https://i.ibb.co/9hg4pF2/jsonr-modified.png" alt="jsonr" border="0" width="145"></a>
-
-# [jsonr - PyPi](https://pypi.org/project/jsonr)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsonr-py/jsonr/blob/master/LICENSE)
-[![Python Versions](https://img.shields.io/badge/python-3.7%20|%203.8%20|%203.9%20|%203.10%20|%203.11%20|%203.12%20-blue)](https://www.python.org/downloads/)
-
 ```
-flowa: (V8.5.1)
+flowa: (V8.5.2)
 
 Python Highly customizable JSON objects and dataframes, and more!
 ```
