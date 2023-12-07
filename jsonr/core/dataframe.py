@@ -73,7 +73,7 @@ class Frame:
 
         cls = self.string(data_string)
         self.columns = cls.columns
-        self.rows = cls.data
+        self.rows = cls.rows
         self._update_attrs()
         return self
 
