@@ -1,6 +1,8 @@
 <h1 align="center">
-  <a href="https://pypi.org/project/jsonr"><img src="https://i.ibb.co/9hg4pF2/jsonr-modified.png" alt="jsonr" border="0" width="145"></a>
+  <a href="https://pypi.org/project/jsonr"><img src="https://i.ibb.co/9hg4pF2/jsonr-modified.png" alt="jsonr" border="0" width="145"></a><a href="https://pypi.org/project/jsonr"><img src="https://i.ibb.co/NK3W9Dk/jsonr-preview-modified.png" alt="jsonr" border="0" width="290">
+  </a>
 </h1>
+
 
 # [jsonr - PyPi](https://pypi.org/project/jsonr)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsonr-py/jsonr/blob/master/LICENSE)
