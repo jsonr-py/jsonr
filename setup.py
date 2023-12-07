@@ -1,10 +1,13 @@
 from setuptools import setup, find_packages
+import pathlib
+
+path_absolute: pathlib.Path = pathlib.Path(__file__).parent.absolute()
 
 setup(
     name='jsonr',
     version='8.5.1',
     description='Highly customizable JSON objects and dataframes.',
-    long_description='README.md',
+    long_description=pathlib.Path(f"{path_absolute}/README.md").read_text(encoding="utf-8"),
     long_description_content_type='text/markdown',
     url='https://github.com/jsonr-py/jsonr',
     author='jsonr',
