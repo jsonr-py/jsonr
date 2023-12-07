@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jsonr"
-version = "8.5.2"
+version = "8.5.3"
 description = "Highly customizable JSON objects and dataframes."
 readme = "README.md"
 authors = [{ name = "jsonr", email = "jsonr.py@gmail.com" } ]
