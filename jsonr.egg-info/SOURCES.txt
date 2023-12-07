@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jsonr/__init__.py
+jsonr/help.py
+jsonr.egg-info/PKG-INFO
+jsonr.egg-info/SOURCES.txt
+jsonr.egg-info/dependency_links.txt
+jsonr.egg-info/requires.txt
+jsonr.egg-info/top_level.txt
+jsonr/bases/__init__.py
+jsonr/bases/new_base.py
+jsonr/core/__init__.py
+jsonr/core/dataframe.py
+jsonr/core/new.py
