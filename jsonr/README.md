@@ -1,5 +1,5 @@
 ```
-flowa: (V8.5.2)
+flowa: (V8.5.3)
 
 Python Highly customizable JSON objects and dataframes, and more!
 ```
