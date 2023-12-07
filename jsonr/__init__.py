@@ -10,6 +10,10 @@ Run `help(jsonr.New)` or `help(jsonr.JSON)` for more information on json objects
 
 
 Run `help(jsonr.Frame)` for more information on dataframe objects.
+
+Methods:
+    - jsonr.load(file): Load binary file.
+    - jsonr.dump(file): Dump binary file.
 '''
 
 from .core import New, Frame
@@ -21,6 +25,10 @@ PYTHON_MINIMUM_MINOR: int = 7
 PYTHON_MINIMUM_MICRO: int = 0
 
 import sys
+import pickle
+
+load:             object = pickle.load
+dump:             object = pickle.dump
 
 if sys.version_info < (PYTHON_MINIMUM_MAJOR, PYTHON_MINIMUM_MINOR, PYTHON_MINIMUM_MICRO):
     alert: str = f'\n\nPython {PYTHON_MINIMUM_MAJOR}.{PYTHON_MINIMUM_MINOR}.{PYTHON_MINIMUM_MICRO} or higher is required for {__name__}.\n\nCurrent Version: {str(sys.version).split("(")[0]}\n\n>>> Error Below:'
@@ -28,6 +36,8 @@ if sys.version_info < (PYTHON_MINIMUM_MAJOR, PYTHON_MINIMUM_MINOR, PYTHON_MINIMU
     warnings.warn(alert, stacklevel=2, category=RuntimeWarning)
 
 __all__:          tuple = (
+                        'load',
+                        'dump',
                         'New',
                         'Frame',
                         'JSON',
@@ -36,7 +46,7 @@ __all__:          tuple = (
                         'PYTHON_MINIMUM_MICRO'
 )
 
-__version__:      str = '8.5.2'
+__version__:      str = '8.5.3'
 __author__:       str = 'jsonr'
 __author_email__: str = 'jsonr.py@gmail.com'
 __license__:      str = 'MIT'
