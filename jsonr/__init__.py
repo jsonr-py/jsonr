@@ -36,7 +36,7 @@ __all__:          tuple = (
                         'PYTHON_MINIMUM_MICRO'
 )
 
-__version__:      str = '8.5.1'
+__version__:      str = '8.5.2'
 __author__:       str = 'jsonr'
 __author_email__: str = 'jsonr.py@gmail.com'
 __license__:      str = 'MIT'
