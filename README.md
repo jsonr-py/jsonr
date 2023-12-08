@@ -9,7 +9,7 @@
 [![Python Versions](https://img.shields.io/badge/python-3.7%20|%203.8%20|%203.9%20|%203.10%20|%203.11%20|%203.12%20-blue)](https://www.python.org/downloads/)
 
 ```
-jsonr: (V8.5.6)
+jsonr: (V8.6.0)
 
 Highly customizable JSON objects and dataframes, and your python toolkit all in one.
 ```
@@ -103,6 +103,11 @@ jsonr/libs/pollinations/abc/imageprotocol.py
 jsonr/libs/pollinations/abc/textprotocol.py
 jsonr/libs/pollinations/ai/__init__.py
 jsonr/libs/pollinations/ext/__init__.py
+jsonr/libs/pollinations/types/ImageModel.py
+jsonr/libs/pollinations/types/ImageObject.py
+jsonr/libs/pollinations/types/TextModel.py
+jsonr/libs/pollinations/types/TextObject.py
+jsonr/libs/pollinations/types/__init__.py
 jsonr/typing/__init__.py
 jsonr/utils/__init__.py
 test/test_import.py
