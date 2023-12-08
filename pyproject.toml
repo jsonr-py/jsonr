@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jsonr"
-version = "8.5.5"
+version = "8.5.6"
 description = "Highly customizable JSON objects and dataframes, and your python toolkit all in one."
 readme = "README.md"
 authors = [{ name = "jsonr", email = "jsonr.py@gmail.com" } ]
 license = { file = "LICENSE" }
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "Topic :: Software Development :: Build Tools",
     "License :: OSI Approved :: MIT License",
