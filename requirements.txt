@@ -1,0 +1,5 @@
+numpy
+requests
+pathlib
+pandas
+google-generativeai
