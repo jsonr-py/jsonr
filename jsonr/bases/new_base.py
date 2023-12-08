@@ -271,3 +271,4 @@ class NewBase(object):
 
     def __exit__(self, exc_type, exc_value, traceback) -> str:
         return f"jsonr.exit <exc_type: {exc_type}, exc_value: {exc_value}, traceback: {traceback}>"
+        
