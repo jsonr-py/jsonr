@@ -1,4 +1,4 @@
-from .jsonr import *
+from jsonr import *
 
 if __name__ == '__main__':
     import pytest, sys
