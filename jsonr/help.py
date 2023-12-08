@@ -2,7 +2,7 @@ print("""
 # [jsonr - PyPi](https://pypi.org/project/jsonr)
 
 ```
-jsonr: (V8.6.0)
+jsonr: (V8.6.1)
 
 Highly customizable JSON objects and dataframes, and your python toolkit all in one.
 ```
