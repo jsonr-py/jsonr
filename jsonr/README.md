@@ -1,7 +1,7 @@
 ```
-flowa: (V8.5.3)
+flowa: (V8.5.5)
 
-Python Highly customizable JSON objects and dataframes, and more!
+Highly customizable JSON objects and dataframes, and your python toolkit all in one.
 ```
 
 ## Installing
@@ -11,6 +11,84 @@ python3 pip install -U jsonr
 
 # Windows
 py -3 -m pip install -U jsonr
+```
+
+# Architecture
+```python
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jsonr/__init__.py
+jsonr/__main__.py
+jsonr/help.py
+jsonr.egg-info/PKG-INFO
+jsonr.egg-info/SOURCES.txt
+jsonr.egg-info/dependency_links.txt
+jsonr.egg-info/requires.txt
+jsonr.egg-info/top_level.txt
+jsonr/_core/__init__.py
+jsonr/_core/_binary.py
+jsonr/_core/_code.py
+jsonr/_core/_concurrent.py
+jsonr/_core/_crypto.py
+jsonr/_core/_data.py
+jsonr/_core/_dcompress.py
+jsonr/_core/_debug.py
+jsonr/_core/_devtools.py
+jsonr/_core/_dtypes.py
+jsonr/_core/_file.py
+jsonr/_core/_formats.py
+jsonr/_core/_functional.py
+jsonr/_core/_guitk.py
+jsonr/_core/_idata.py
+jsonr/_core/_import.py
+jsonr/_core/_international.py
+jsonr/_core/_iprotocols.py
+jsonr/_core/_language.py
+jsonr/_core/_markup.py
+jsonr/_core/_math.py
+jsonr/_core/_mswindows.py
+jsonr/_core/_mutimedia.py
+jsonr/_core/_networking.py
+jsonr/_core/_os.py
+jsonr/_core/_packaging.py
+jsonr/_core/_program.py
+jsonr/_core/_runtime.py
+jsonr/_core/_superseded.py
+jsonr/_core/_text.py
+jsonr/_core/_unix.py
+jsonr/_typing/__init__.py
+jsonr/_typing/jsonr_typing_flowa.py
+jsonr/_typing/jsonr_typing_json.py
+jsonr/_typing/jsonr_typing_pollinations.py
+jsonr/_typing/jsonr_typing_string.py
+jsonr/_utils/__init__.py
+jsonr/_utils/_convertions.py
+jsonr/_utils/_infinity.py
+jsonr/_utils/_insepct.py
+jsonr/bases/__init__.py
+jsonr/bases/new_base.py
+jsonr/core/__init__.py
+jsonr/core/dataframe.py
+jsonr/core/new.py
+jsonr/libs/__init__.py
+jsonr/libs/flowa/__init__.py
+jsonr/libs/flowa/_version.py
+jsonr/libs/flowa/main/__init__.py
+jsonr/libs/flowa/main/decisiontree.py
+jsonr/libs/flowa/main/imagemodel.py
+jsonr/libs/flowa/main/labelencoder.py
+jsonr/libs/flowa/types/__init__.py
+jsonr/libs/flowa/utils/__init__.py
+jsonr/libs/pollinations/__init__.py
+jsonr/libs/pollinations/abc/__init__.py
+jsonr/libs/pollinations/abc/imageprotocol.py
+jsonr/libs/pollinations/abc/textprotocol.py
+jsonr/libs/pollinations/ai/__init__.py
+jsonr/libs/pollinations/ext/__init__.py
+jsonr/typing/__init__.py
+jsonr/utils/__init__.py
 ```
 
 ## JSON Objects
