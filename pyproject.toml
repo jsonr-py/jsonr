@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jsonr"
-version = "8.5.3"
-description = "Highly customizable JSON objects and dataframes."
+version = "8.5.5"
+description = "Highly customizable JSON objects and dataframes, and your python toolkit all in one."
 readme = "README.md"
 authors = [{ name = "jsonr", email = "jsonr.py@gmail.com" } ]
 license = { file = "LICENSE" }
@@ -22,14 +22,15 @@ keywords = [
     "json",
     "jsonr-py",
     "jsonr-python",
-    "dataframe",
-    "df",
-    "pandas",
     "python"
 ]
 requires-python = ">=3.7"
 dependencies = [
-    "numpy"
+    'numpy',
+    'requests',
+    'pathlib',
+    'pandas',
+    'google-generativeai'
 ]
 
 [project.urls]
