@@ -1,5 +1,6 @@
 include AUTHORS
 include README.md
+include SECURITY.md
 include LICENSE
 include VERSION
 include .mailmap
