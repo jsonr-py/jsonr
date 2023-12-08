@@ -2,7 +2,7 @@ print("""
 # [jsonr - PyPi](https://pypi.org/project/jsonr)
 
 ```
-flowa: (V8.5.5)
+jsonr: (V8.5.6)
 
 Highly customizable JSON objects and dataframes, and your python toolkit all in one.
 ```
@@ -23,6 +23,7 @@ AUTHORS
 LICENSE
 MANIFEST.in
 README.md
+SECURITY.md
 VERSION
 pyproject.toml
 setup.cfg
