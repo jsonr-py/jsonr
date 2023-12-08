@@ -38,7 +38,7 @@ class NewBase(object):
             del self._NewBase_json_secret_var_jsonr_python[name]
 
     def __getattr__(self, name) -> object:
-        return self._NewBase_json_secret_var_jsonr_python[name]
+        return super().__getattr__(name)
 
     def __class_getitem__(cls, item) -> object:
         return item
@@ -271,4 +271,3 @@ class NewBase(object):
 
     def __exit__(self, exc_type, exc_value, traceback) -> str:
         return f"jsonr.exit <exc_type: {exc_type}, exc_value: {exc_value}, traceback: {traceback}>"
-        
