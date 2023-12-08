@@ -38,7 +38,7 @@ class NewBase(object):
             del self._NewBase_json_secret_var_jsonr_python[name]
 
     def __getattr__(self, name) -> object:
-        return super().__getattr__(name)
+        return self._NewBase_json_secret_var_jsonr_python[name]
 
     def __class_getitem__(cls, item) -> object:
         return item
