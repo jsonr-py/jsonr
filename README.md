@@ -30,6 +30,7 @@ AUTHORS
 LICENSE
 MANIFEST.in
 README.md
+SECURITY.md
 VERSION
 pyproject.toml
 setup.cfg
