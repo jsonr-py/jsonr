@@ -15,9 +15,14 @@ py -3 -m pip install -U jsonr
 
 # Architecture
 ```python
+.mailmap
+AUTHORS
 LICENSE
+MANIFEST.in
 README.md
+VERSION
 pyproject.toml
+setup.cfg
 setup.py
 jsonr/__init__.py
 jsonr/__main__.py
@@ -89,6 +94,7 @@ jsonr/libs/pollinations/ai/__init__.py
 jsonr/libs/pollinations/ext/__init__.py
 jsonr/typing/__init__.py
 jsonr/utils/__init__.py
+test/test_import.py
 ```
 
 ## JSON Objects
