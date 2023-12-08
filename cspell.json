@@ -1,0 +1,48 @@
+{
+  "ignorePaths": ["CHANGELOG.md", "**/*changelog.md"],
+  "ignoreRegExpList": ["/(`{3})[\\s\\S]+?\\1/g", "/`([\\s\\S]+?)`/g"],
+  "languageSettings": [
+    {
+      "languageId": "python",
+      "includeRegExpList": ["/#.*/", "/('''|\"\"\")[^\\1]+?\\1/g"]
+    },
+    {
+      "languageId": "javascript",
+      "includeRegExpList": ["CStyleComment"]
+    },
+    {
+      "languageId": "json",
+      "includeRegExpList": ["CStyleComment"]
+    },
+    {
+      "languageId": "typescript",
+      "includeRegExpList": ["CStyleComment"]
+    }
+  ],
+  "useGitignore": true,
+  "words": [
+    "json",
+    "js",
+    "jso",
+    "jsonr",
+    "r",
+    "python",
+    "py",
+    "python3",
+    "py3",
+    "json-core",
+    "json.r",
+    "json.core",
+    "tool",
+    "tools",
+    "toolkit",
+    "tk",
+    "jsontk",
+    "json-toolkit",
+    "json-tk",
+    "json.toolkit",
+    "json.tk",
+    "json-kit",
+    "json.kit"
+  ]
+}
