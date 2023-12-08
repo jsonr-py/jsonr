@@ -1,22 +1,106 @@
 '''
-Create highly customizable JSON objects.
+Highly customizable JSON objects and dataframes, and your python toolkit all in one.
 
-    - jsonr.New(auto=False, limit=None, *args, **kwargs)
-
-Create a dataframe.
-    - jsonr.Frame(columns=[], rows=[])
-
-Run `help(jsonr.New)` or `help(jsonr.JSON)` for more information on json objects.
-
-
-Run `help(jsonr.Frame)` for more information on dataframe objects.
-
-Methods:
-    - jsonr.load(file): Load binary file.
-    - jsonr.dump(file): Dump binary file.
+__all__:          tuple = (
+                        'New',
+                        'Frame',
+                        'load',
+                        'dump',
+                        'py_checker',
+                        'as_bytes',
+                        'as_unicode',
+                        'is_method',
+                        'is_function',
+                        'is_code',
+                        'get_argspec',
+                        'Infinity',
+                        'NegativeInfinity',
+                        'PYTHON_MINIMUM_MAJOR',
+                        'PYTHON_MINIMUM_MINOR',
+                        'PYTHON_MINIMUM_MICRO',
+                        'JSON',
+                        'JSONArray',
+                        'JSONObject',
+                        'JSONValue',
+                        'Flowa',
+                        'FlowaArray',
+                        'FlowaObject',
+                        'FlowaValue',
+                        'Image',
+                        'ImageStr',
+                        'ImageObject',
+                        'ImageUrl',
+                        'Text',
+                        'TextArray',
+                        'TextObject',
+                        'TextValue',
+                        'Any',
+                        'Callable',
+                        'Dict',
+                        'List',
+                        'Optional',
+                        'Tuple',
+                        'Type',
+                        'Union',
+                        'cast',
+                        'overload',
+                        'String',
+                        'StringBuffer',
+)
 '''
 
+import json
+import pickle
+
+from . import core
 from .core import New, Frame
+
+from . import libs
+from .libs import flowa, pollinations
+
+from . import utils
+from .utils import (
+    py_checker,
+    as_bytes,
+    as_unicode,
+    is_method,
+    is_function,
+    is_code,
+    get_argspec,
+    Infinity,
+    NegativeInfinity,
+)
+
+from . import typing
+from .typing import (
+    Any,
+    Callable,
+    Dict,
+    List,
+    Optional,
+    Tuple,
+    Type,
+    Union,
+    cast,
+    overload,
+    String,
+    StringBuffer,
+    JSONArray,
+    JSONObject,
+    JSONValue,
+    Flowa,
+    FlowaArray,
+    FlowaObject,
+    FlowaValue,
+    Image,
+    ImageStr,
+    ImageObject,
+    ImageUrl,
+    Text,
+    TextArray,
+    TextObject,
+    TextValue
+)
 
 JSON: New = New
 
@@ -24,29 +108,61 @@ PYTHON_MINIMUM_MAJOR: int = 3
 PYTHON_MINIMUM_MINOR: int = 7
 PYTHON_MINIMUM_MICRO: int = 0
 
-import sys
-import pickle
-
 load:             object = pickle.load
 dump:             object = pickle.dump
 
-if sys.version_info < (PYTHON_MINIMUM_MAJOR, PYTHON_MINIMUM_MINOR, PYTHON_MINIMUM_MICRO):
-    alert: str = f'\n\nPython {PYTHON_MINIMUM_MAJOR}.{PYTHON_MINIMUM_MINOR}.{PYTHON_MINIMUM_MICRO} or higher is required for {__name__}.\n\nCurrent Version: {str(sys.version).split("(")[0]}\n\n>>> Error Below:'
-    import warnings
-    warnings.warn(alert, stacklevel=2, category=RuntimeWarning)
+py_checker(PYTHON_MINIMUM_MAJOR, PYTHON_MINIMUM_MINOR, PYTHON_MINIMUM_MICRO)
 
 __all__:          tuple = (
-                        'load',
-                        'dump',
                         'New',
                         'Frame',
-                        'JSON',
+                        'load',
+                        'dump',
+                        'py_checker',
+                        'as_bytes',
+                        'as_unicode',
+                        'is_method',
+                        'is_function',
+                        'is_code',
+                        'get_argspec',
+                        'Infinity',
+                        'NegativeInfinity',
                         'PYTHON_MINIMUM_MAJOR',
                         'PYTHON_MINIMUM_MINOR',
-                        'PYTHON_MINIMUM_MICRO'
+                        'PYTHON_MINIMUM_MICRO',
+                        'JSON',
+                        'JSONArray',
+                        'JSONObject',
+                        'JSONValue',
+                        'Flowa',
+                        'FlowaArray',
+                        'FlowaObject',
+                        'FlowaValue',
+                        'Image',
+                        'ImageStr',
+                        'ImageObject',
+                        'ImageUrl',
+                        'Text',
+                        'TextArray',
+                        'TextObject',
+                        'TextValue',
+                        'Any',
+                        'Callable',
+                        'Dict',
+                        'List',
+                        'Optional',
+                        'Tuple',
+                        'Type',
+                        'Union',
+                        'cast',
+                        'overload',
+                        'String',
+                        'StringBuffer',
 )
 
-__version__:      str = '8.5.3'
+__version__:      str = '8.5.5'
+__description__:  str = 'Highly customizable JSON objects and dataframes, and your python toolkit all in one.'
+__desc__:         str = 'Highly customizable JSON objects and dataframes, and your python toolkit all in one.'
 __author__:       str = 'jsonr'
 __author_email__: str = 'jsonr.py@gmail.com'
 __license__:      str = 'MIT'
@@ -60,4 +176,4 @@ __license_type__: str = 'License :: OSI Approved :: MIT License'
 __url__:          str = 'https://github.com/jsonr-py/jsonr'
 __github__:       str = 'https://github.com/jsonr-py'
 __repo__ :        str = 'https://github.com/jsonr-py/jsonr'
-__keywords__:     str = 'jsonr json jsonr-py jsonr-python'
+__keywords__:     str = 'jsonr json jsonr-py jsonr-python, python'
