@@ -160,7 +160,7 @@ __all__:          tuple = (
                         'StringBuffer',
 )
 
-__version__:      str = '8.5.5'
+__version__:      str = '8.5.6'
 __description__:  str = 'Highly customizable JSON objects and dataframes, and your python toolkit all in one.'
 __desc__:         str = 'Highly customizable JSON objects and dataframes, and your python toolkit all in one.'
 __author__:       str = 'jsonr'
@@ -170,7 +170,7 @@ __copyright__:    str = 'Copyright (c) 2023 jsonr'
 __credits__:      str = 'jsonr'
 __maintainer__:   str = 'jsonr'
 __email__:        str = 'jsonr.py@gmail.com'
-__status__:       str = 'Development Status :: 3 - Alpha'
+__status__:       str = 'Development Status :: 5 - Production/Stable'
 __topic__:        str = 'Topic :: Software Development :: Build Tools'
 __license_type__: str = 'License :: OSI Approved :: MIT License'
 __url__:          str = 'https://github.com/jsonr-py/jsonr'
