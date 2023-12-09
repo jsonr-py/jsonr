@@ -159,7 +159,7 @@ __all__:          tuple = (
                         'StringBuffer',
 )
 
-__version__:      str = '8.6.2'
+__version__:      str = '8.6.6'
 __description__:  str = 'Highly customizable JSON objects and dataframes, and your python toolkit all in one.'
 __desc__:         str = 'Highly customizable JSON objects and dataframes, and your python toolkit all in one.'
 __author__:       str = 'jsonr'
