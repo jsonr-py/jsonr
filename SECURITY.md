@@ -9,7 +9,7 @@
 [![Python Versions](https://img.shields.io/badge/python-3.7%20|%203.8%20|%203.9%20|%203.10%20|%203.11%20|%203.12%20-blue)](https://www.python.org/downloads/)
 
 ```
-jsonr: (V8.6.1)
+jsonr: (V8.6.2)
 
 Highly customizable JSON objects and dataframes, and your python toolkit all in one.
 ```
