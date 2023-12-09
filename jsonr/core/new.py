@@ -33,7 +33,7 @@ class New(NewBase):
         get (key, default=None): Get value of key in json object.
 
     """
-    def __init__(self, auto: bool=False, *args, limit: int=None, **kwargs) -> None:
+    def __init__(self, auto: bool=True, *args, limit: int=None, **kwargs) -> None:
         """Initialize the json object."""
         super().__init__(auto=auto, limit=limit, *args, **kwargs)
 

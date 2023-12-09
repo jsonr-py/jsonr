@@ -11,6 +11,7 @@ __all__: tuple = (
     'is_function',
     'is_code',
     'get_argspec',
+    'Bond',
     'Infinity',
     'NegativeInfinity',
 )
@@ -18,6 +19,9 @@ __all__: tuple = (
 
 from .._utils import (
     py_checker,
+)
+from .._utils._bond import (
+    Bond,
 )
 from .._utils._convertions import (
     as_bytes,
@@ -42,6 +46,7 @@ __all__: tuple = (
     'is_function',
     'is_code',
     'get_argspec',
+    'Bond',
     'Infinity',
     'NegativeInfinity',
 )

@@ -13,6 +13,7 @@ __all__:          tuple = (
                         'is_function',
                         'is_code',
                         'get_argspec',
+                        'Bond',
                         'Infinity',
                         'NegativeInfinity',
                         'PYTHON_MINIMUM_MAJOR',
@@ -67,6 +68,7 @@ from .utils import (
     is_function,
     is_code,
     get_argspec,
+    Bond,
     Infinity,
     NegativeInfinity,
 )
@@ -160,7 +162,7 @@ __all__:          tuple = (
                         'StringBuffer',
 )
 
-__version__:      str = '8.6.1'
+__version__:      str = '8.6.2'
 __description__:  str = 'Highly customizable JSON objects and dataframes, and your python toolkit all in one.'
 __desc__:         str = 'Highly customizable JSON objects and dataframes, and your python toolkit all in one.'
 __author__:       str = 'jsonr'

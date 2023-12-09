@@ -53,6 +53,7 @@ jsonr/_typing/jsonr_typing_json.py
 jsonr/_typing/jsonr_typing_pollinations.py
 jsonr/_typing/jsonr_typing_string.py
 jsonr/_utils/__init__.py
+jsonr/_utils/_bond.py
 jsonr/_utils/_convertions.py
 jsonr/_utils/_infinity.py
 jsonr/_utils/_insepct.py
