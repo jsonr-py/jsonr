@@ -31,7 +31,7 @@ from .._utils._infinity import (
     Infinity,
     NegativeInfinity,
 )
-from .._utils._insepct import (
+from .._utils._inspect import (
     is_method,
     is_function,
     is_code,
