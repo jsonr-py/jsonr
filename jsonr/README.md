@@ -1,5 +1,5 @@
 ```
-jsonr: (V8.6.2)
+jsonr: (V8.6.6)
 
 Highly customizable JSON objects and dataframes, and your python toolkit all in one.
 ```
